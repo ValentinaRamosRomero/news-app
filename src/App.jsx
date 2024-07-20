@@ -7,8 +7,7 @@ function App() {
 
   return (
     <>
-      <Navbar setCategory={setCategory}/>
-      <NewsBoard category={category}/>
+      <NewsBoard/>
     </>
   )
 }
